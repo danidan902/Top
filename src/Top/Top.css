@@ -24,11 +24,13 @@
     text-decoration: none;   
     margin: 0 15px;
     font-weight: 600;
+   
 }  
 
 .nav-link:hover {  
     text-decoration: underline; 
     color: green;
+    
 } 
 .SocialMedia{
   display: flex;
@@ -105,7 +107,21 @@ h1{
 }
 .img:hover{
     transform: scale(1.05); 
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.937), 0 10px 10px rgb(249, 2, 2);
 }
+.img:hover::after {
+    opacity: 0.1;
+  }
+
+  .card::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  .img:hover::before, .img:hover::after {
+    width: 100%;
+  }
+
 .graphics{
     margin-top: 220px;
     margin-left: 80px;
@@ -133,6 +149,7 @@ h1{
 }
 .web-devl:hover{
     transform: scale(1.05); 
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.937), 0 10px 10px rgb(249, 2, 2);
 }
 .Website-devl{
     margin-top: 220px;
@@ -161,6 +178,7 @@ h1{
 }
 .Digital-mark:hover{
     transform: scale(1.05); 
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.937), 0 10px 10px rgb(249, 2, 2);
 }
 .digital-marketing{
     margin-top: 220px;
